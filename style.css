@@ -1,0 +1,218 @@
+.container {
+    width: 95%;  
+    margin: auto;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 15px;
+    position: relative;
+    top: 40px;
+}
+
+.icon img {
+    width: 40px;
+    height: auto;
+    position: absolute;
+    top: -40px;
+}
+
+.icon span {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav .home {
+    display: flex;
+    /* gap: 0.5px; */
+}
+
+nav .home span {
+    padding: 20px;
+    background-color: rgb(0, 187, 255);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-right: 1px solid white;
+}
+
+.home span:hover {
+    background-color: rgb(147, 196, 245);
+    /* color: black; */
+    cursor: pointer;
+}
+
+.home +span {
+    border: 2px solid rgb(0, 185, 255);
+    border-radius: 10px;
+    color: rgb(0, 185, 255);
+    padding: 12px 25px;
+    font-weight: bolder;
+    height: fit-content;
+    align-self: center;
+}
+
+.home +span:hover, .btnC span:hover {
+    background-color: rgb(0, 185, 255);
+    color: white;
+    cursor: pointer;
+}
+
+
+.main {
+    background-color: rgb(220, 240, 252);
+}
+
+.main .header {
+    text-align: center;
+    padding: 45px 0;
+}
+
+.main .header h1 {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.main .bc {
+    color: rgb(0, 185, 255);
+}
+
+.cardC {
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+}
+
+.card {
+    width: 340px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+}
+
+.imgC {
+    /* width: 400px; */
+    /* padding: 0px; */
+    /* height: auto; */
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.imgC img {
+    width: 340px;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+.metaC {
+    background-color: white;
+    
+}
+
+.txtC {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.txtC p {
+    margin: 0;
+    padding: 3px 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.txtC1 p:first-child, .txtC2 p:first-child{
+    font-weight: bold;
+}
+
+.btnC {
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.btnC span {
+    border: 2px solid rgb(0, 185, 255);
+    border-radius: 6px;
+    padding: 12px 25px;
+    font-weight: bolder;
+    color: rgb(0, 185, 255);
+}
+
+.main .footer {
+    padding: 70px 10px;
+    text-align: center;
+}
+
+
+.main .footer span {
+    border: 2px solid rgb(0, 185, 255);
+    border-radius: 6px;
+    padding: 12px 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(0, 185, 255);
+}
+
+.footer span:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    gap: 100px;
+    padding: 20px 20px;
+    background-color: rgb(0, 185, 255);
+    color: rgb(250, 241, 223);
+}
+
+.about h1 {
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+}
+
+.aboutUs {
+    width: 20%;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+}
+
+.quick a {
+    color: white;
+    text-decoration: none;
+}
+
+.quick p {
+    cursor: pointer;
+}
+
+.follow p{
+    cursor: pointer;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+.copyright span {
+    color: rgb(0, 185, 255);
+}
