@@ -90,6 +90,7 @@ nav .home span {
     display: flex;
     /* gap: 10px; */
     justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .card {
